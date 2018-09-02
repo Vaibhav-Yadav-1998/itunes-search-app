@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#search-app {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 200px;
+}
+
+#result-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 50px auto;
+}
